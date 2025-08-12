@@ -1,0 +1,10 @@
+function celsiusParaFahrenheit(c) {
+  return (c * 9/5) + 32;
+}
+
+function fahrenheitParaCelsius(f) {
+  return (f - 32) * 5/9;
+}
+
+console.log(`30°C em Fahrenheit: ${celsiusParaFahrenheit(30).toFixed(2)}°F`);
+console.log(`86°F em Celsius: ${fahrenheitParaCelsius(86).toFixed(2)}°C`);

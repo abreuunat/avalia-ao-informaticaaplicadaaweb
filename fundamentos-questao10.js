@@ -3,7 +3,7 @@ function converterNomeCompleto(nomeCompleto) {
   const partes = nomeCompleto.split(" ");
   const ultimoNome = partes.pop();
   const iniciais = partes.map(p => p[0] + ".").join(" ");
-  return {iniciais} {ultimoNome};
+  return `${iniciais} ${ultimoNome}`;
 }
 
-console.log(converterNomeCompleto("Natália de Abreu Silva")); 
+console.log(converterNomeCompleto("Natália de Abreu Silva"));

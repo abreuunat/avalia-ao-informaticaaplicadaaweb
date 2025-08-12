@@ -1,2 +1,2 @@
-# avalia-ao-informaticaaplicadaaweb
+# avaliaçao-informaticaaplicadaaweb
 Resolução da atividade
